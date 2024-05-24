@@ -88,3 +88,4 @@ jobs:
       run: |
         dnf -y install epel-release gcc make procps-ng which
         make -j SERVER_CFLAGS='-Werror'
+        make SERVER_CFLAGS='-Werror'
